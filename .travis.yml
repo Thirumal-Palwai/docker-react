@@ -7,3 +7,4 @@ before install:
 
 scrip:
     - docker run -it thirumalpalwai/docker-react npm run test -- --coverage
+    - q
