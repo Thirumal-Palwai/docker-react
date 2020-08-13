@@ -6,5 +6,4 @@ before install:
     - docker build -t thirumalpalwai/docker-react -f Dockerfile.dev .
 
 scrip:
-    - docker run thirumalpalwai/docker-react npm run test
-    - q
+    - docker run -it thirumalpalwai/docker-react npm run test -- --coverage
