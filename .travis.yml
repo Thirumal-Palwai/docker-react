@@ -6,4 +6,5 @@ before install:
     - docker build -t thirumalpalwai/docker-react -f Dockerfile.dev .
 
 scrip:
-    - docker run thirumalpalwai/docker-react npm run test --env=jsdom --coverage
+    - docker run thirumalpalwai/docker-react npm run test
+    - q
